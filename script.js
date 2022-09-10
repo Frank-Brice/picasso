@@ -19,9 +19,9 @@ function search() {
           .map((pics) => {
             return `
             <div class="card">
-            <a href="${pics.webformatURL}" class="glightbox">
+            
               <img src="${pics.webformatURL}">
-            </a>
+           
             
               <div class="userDetails">
                      <h4>${pics.user}</h4>
